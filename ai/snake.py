@@ -10,12 +10,12 @@ from torchvision import transforms # type: ignore # noqa
 from pygame.locals import * # type: ignore # noqa
 
 # Configuração dos rounds e recompensas
-round = 1  # default mode: round 1
+round = 3  # default mode: round 1
 rewards = [
     {'eat': 2.0, 'hit': -0.5, 'bit': -0.8},  # round 1
     {'eat': 2.0, 'hit': -1.0, 'bit': -1.5},  # round 2
     {'eat': 2.0, 'hit': -1.5,  'bit': -2.0},  # round 3
-    {'eat': 2.0, 'hit': -2.0,  'bit': -2.0}  # round 3
+    {'eat': 2.0, 'hit': -2.0,  'bit': -2.0}  # round 4
 ]
 
 # Classe principal do jogo Snake
